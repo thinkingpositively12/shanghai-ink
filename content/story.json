@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Shanghai Ink",
+    "kicker": "One city, drawn in ink",
+    "subtitle": "A five-chapter journey from misty dawn to neon night",
+    "description": "A continuous ink-wash journey through Shanghai — from the dawn canals of Zhujiajiao to the neon towers of Lujiazui.",
+    "note": "Ink-wash art direction: textured paper, gray-green ink, mist, serif typography, red seal chapter markers.",
+    "style": "cinematic",
+    "ui": "folio",
+    "connectorSpan": 1.2
+  },
+  "chapters": [
+    {
+      "id": "01-zhujiajiao",
+      "label": "Zhujiajiao",
+      "eyebrow": "Chapter 1 · Dawn",
+      "title": "Mist on the Canals",
+      "subtitle": "Zhujiajiao water town · before sunrise",
+      "accent": "#B8382A",
+      "copyPosition": "right",
+      "span": 4.6,
+      "linger": 0.35,
+      "paragraphs": [
+        "The water town wakes before the city does.",
+        "Boats drift beneath stone arches older than empires, and the canal holds the first gray-green light of morning."
+      ],
+      "tags": ["water town", "dawn"],
+      "still": "assets/images/scenes/01-zhujiajiao.webp",
+      "clip": "assets/video/dives/01-zhujiajiao.mp4"
+    },
+    {
+      "id": "02-wukang",
+      "label": "Wukang Mansion",
+      "eyebrow": "Chapter 2 · Morning",
+      "title": "The Normandie Apartments",
+      "subtitle": "Wukang Road · 1924",
+      "accent": "#B8382A",
+      "copyPosition": "left",
+      "span": 4.4,
+      "linger": 0.35,
+      "paragraphs": [
+        "On a wedge of land where five roads meet, Hudec's brick ship sails the plane-tree shade.",
+        "Art deco in old Shanghai — a corner of the city that forgot to hurry."
+      ],
+      "tags": ["architecture", "art deco"],
+      "still": "assets/images/scenes/02-wukang.webp",
+      "clip": "assets/video/dives/02-wukang.mp4"
+    },
+    {
+      "id": "03-yuyuan",
+      "label": "Yuyuan Garden",
+      "eyebrow": "Chapter 3 · Midday",
+      "title": "A Garden for Peace",
+      "subtitle": "Old City · since 1559",
+      "accent": "#B8382A",
+      "copyPosition": "bottom",
+      "span": 4.6,
+      "linger": 0.35,
+      "paragraphs": [
+        "Pan Yunduan spent nineteen years folding rock into mountains and water into ponds.",
+        "Koi turn beneath the zigzag bridge — slow geometry at the heart of the old city."
+      ],
+      "tags": ["garden", "Ming dynasty"],
+      "still": "assets/images/scenes/03-yuyuan.webp",
+      "clip": "assets/video/dives/03-yuyuan.mp4"
+    },
+    {
+      "id": "04-bund",
+      "label": "The Bund",
+      "eyebrow": "Chapter 4 · Dusk",
+      "title": "Golden Hour on the Huangpu",
+      "subtitle": "The Bund waterfront · dusk",
+      "accent": "#B8382A",
+      "copyPosition": "right",
+      "span": 4.6,
+      "linger": 0.35,
+      "paragraphs": [
+        "At dusk the river turns to brass.",
+        "Granite façades and bank domes hold the last of the light, while the far shore begins to spark."
+      ],
+      "tags": ["waterfront", "dusk"],
+      "still": "assets/images/scenes/04-bund.webp",
+      "clip": "assets/video/dives/04-bund.mp4"
+    },
+    {
+      "id": "05-lujiazui",
+      "label": "Lujiazui",
+      "eyebrow": "Chapter 5 · Night",
+      "title": "The City of Light",
+      "subtitle": "Pudong · night",
+      "accent": "#B8382A",
+      "copyPosition": "left",
+      "span": 5.0,
+      "linger": 0.35,
+      "paragraphs": [
+        "Across the river, the future switched on.",
+        "Towers rise through the mist like brushstrokes of neon — Shanghai, drawn in ink, finished in light."
+      ],
+      "tags": ["skyline", "night"],
+      "still": "assets/images/scenes/05-lujiazui.webp",
+      "clip": "assets/video/dives/05-lujiazui.mp4"
+    }
+  ],
+  "connectors": [
+    "assets/video/connectors/01-zhujiajiao-to-wukang.mp4",
+    "assets/video/connectors/02-wukang-to-yuyuan.mp4",
+    "assets/video/connectors/03-yuyuan-to-bund.mp4",
+    "assets/video/connectors/04-bund-to-lujiazui.mp4"
+  ],
+  "sources": [
+    {"label": "Zhujiajiao Ancient Town (official tourism site)", "url": "https://www.shanghai.gov.cn/"},
+    {"label": "Wukang Mansion — Xuhui District heritage page", "url": "https://www.xuhui.gov.cn/"},
+    {"label": "Yuyuan Garden — official garden introduction", "url": "https://www.yugarden.com.cn/"}
+  ]
+}
